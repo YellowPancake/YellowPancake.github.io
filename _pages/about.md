@@ -1,14 +1,19 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
+title: "Short Bio"
+excerpt: "Short Bio"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hi there! I am a master student from [School of Computer Science and Technology](https://cs.fudan.edu.cn/), [Fudan University](https://www.fudan.edu.cn/), under the supervision of Prof. Yu-Gang Jiang and Prof. Zhineng Chen of [FVL lab](https://fvl.fudan.edu.cn/). Before this, I got my Bachelor’s degree in [East China University of Science and Technology](https://www.ecust.edu.cn/) in July 2021.
+
+
+My research lies at the intersection of computer vision and machine learning – with a special focus on building intelligent visual systems that are continual and data-efficient. My research interests include continual learning, few-shot learning and representation Learning.
+
+You can find my CV here: [Bingchen Huang's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
 A data-driven personal website
 ======
