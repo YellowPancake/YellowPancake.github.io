@@ -1023,6 +1023,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-steam:before { content: fa-content($fa-var-steam); }
 .#{$fa-css-prefix}-steam-square:before { content: fa-content($fa-var-steam-square); }
 .#{$fa-css-prefix}-steam-symbol:before { content: fa-content($fa-var-steam-symbol); }
+.#{$fa-css-prefix}-wechat:before { content: fa-content($fa-var-wechat); }
 .#{$fa-css-prefix}-step-backward:before { content: fa-content($fa-var-step-backward); }
 .#{$fa-css-prefix}-step-forward:before { content: fa-content($fa-var-step-forward); }
 .#{$fa-css-prefix}-stethoscope:before { content: fa-content($fa-var-stethoscope); }
