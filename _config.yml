@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Bingchen Huang"
-  avatar           : "/images/huangbingchen.jpg"
+  avatar           : "huangbingchen.jpg"
   bio              : "Per aspera ad astra"
   location         : "China Beijing"
   employer         : "Meituan"
