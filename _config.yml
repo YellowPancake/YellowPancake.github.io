@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "Bingchen Huang"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Bingchen Huang"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://YellowPancake.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "YellowPancake/YellowPancake.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Bingchen Huang"
-  avatar           : "../images/huangbingchen.jpg"
+  avatar           : "/images/huangbingchen.jpg"
   bio              : "Per aspera ad astra"
   location         : "China Beijing"
   employer         : "Meituan"
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/YellowPancake"
+  github           : "YellowPancake"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/bc-huang"
+  linkedin         : "bc-huang"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
