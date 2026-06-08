@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bingchen Huang</title>
+  <meta name="description" content="Bingchen Huang (黄炳琛) — Algorithm Engineer at Meituan. Research on Multimodal Large Language Models and Continual Learning." />
+  <meta name="author" content="Bingchen Huang" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bingchen Huang" />
+  <meta property="og:description" content="Algorithm Engineer at Meituan. Multimodal LLM & Continual Learning." />
+  <meta property="og:url" content="https://yellowpancake.github.io/" />
+
+  <link rel="icon" type="image/png" href="images/site-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#top">BH</a>
+      <nav class="nav__links">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="files/BingchenHuang.pdf" target="_blank" rel="noopener">CV</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle dark / light">
+        <span class="theme-toggle__icon">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===================== HERO / ABOUT ===================== -->
+    <section class="hero" id="about">
+      <div class="hero__grid">
+        <div class="hero__text">
+          <p class="hero__eyebrow">§ Hello, I'm</p>
+          <h1 class="hero__name">Bingchen Huang <span class="hero__cn">黄炳琛</span></h1>
+          <p class="hero__role">Algorithm Engineer · <a href="https://www.meituan.com/" target="_blank" rel="noopener">Meituan</a></p>
+
+          <p class="hero__bio">
+            I work on <strong>Multimodal Large Language Models</strong> and <strong>Continual Learning</strong>,
+            with a long-standing interest in building intelligent visual systems that are
+            <em>continual</em> and <em>data-efficient</em>. I received my M.Sc. from the
+            <a href="https://fvl.fudan.edu.cn/" target="_blank" rel="noopener">FVL Lab</a>,
+            <a href="https://www.fudan.edu.cn/" target="_blank" rel="noopener">Fudan University</a>,
+            advised by Prof. Yu-Gang Jiang and Prof. Zhineng Chen, and my B.Eng. from
+            <a href="https://www.ecust.edu.cn/" target="_blank" rel="noopener">East China University of Science and Technology</a>.
+          </p>
+
+          <ul class="hero__meta">
+            <li><span>📍</span> Beijing, China</li>
+            <li><span>🏢</span> Meituan</li>
+            <li><span>✉️</span> <a href="mailto:huangbchen@foxmail.com">huangbchen@foxmail.com</a></li>
+          </ul>
+
+          <div class="hero__links">
+            <a class="btn btn--primary" href="https://scholar.google.com/citations?user=nX3Kp9oAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            <a class="btn" href="https://github.com/YellowPancake" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/bc-huang" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="files/BingchenHuang.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+          </div>
+        </div>
+
+        <div class="hero__photo">
+          <img src="assets/img/avatar.jpg" alt="Portrait of Bingchen Huang" loading="eager" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== NEWS ===================== -->
+    <section class="section reveal" id="news">
+      <h2 class="section__title"><span class="section__num">§ 01</span> News</h2>
+      <ul class="news">
+        <li><time>2025.07</time><p>Our paper <strong>TDR</strong> (Task-Decoupled Retrieval for In-Context Learning) is released on <a href="https://arxiv.org/abs/2507.18340" target="_blank" rel="noopener">arXiv</a>.</p></li>
+        <li><time>2024.04</time><p>Contributed to the <strong>NTIRE 2024</strong> Quality Assessment of AI-Generated Content Challenge (CVPR 2024 Workshops).</p></li>
+        <li><time>2023.07</time><p><strong>MRN</strong> is accepted to <strong>ICCV 2023</strong>.</p></li>
+        <li><time>2022.11</time><p><strong>TCIL</strong> is accepted to <strong>AAAI 2023</strong>.</p></li>
+      </ul>
+    </section>
+
+    <!-- ===================== RESEARCH ===================== -->
+    <section class="section reveal" id="research">
+      <h2 class="section__title"><span class="section__num">§ 02</span> Research Interests</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Multimodal LLMs</h3>
+          <p>Vision-language understanding, retrieval-augmented and in-context learning for large multimodal models.</p>
+        </article>
+        <article class="card">
+          <h3>Continual Learning</h3>
+          <p>Class- and task-incremental learning that resists catastrophic forgetting under dynamic data streams.</p>
+        </article>
+        <article class="card">
+          <h3>Data-Efficient Vision</h3>
+          <p>Few-shot and representation learning for robust visual systems with limited supervision.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== PUBLICATIONS ===================== -->
+    <section class="section reveal" id="publications">
+      <h2 class="section__title"><span class="section__num">§ 03</span> Publications</h2>
+      <p class="section__hint"><span class="hl">*</span> denotes my contribution. Selected works below — see <a href="https://scholar.google.com/citations?user=nX3Kp9oAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> for the full list.</p>
+
+      <ol class="pub">
+        <li class="pub__item">
+          <div class="pub__venue"><span class="badge badge--prep">arXiv 2025</span></div>
+          <div class="pub__body">
+            <h3 class="pub__title">TDR: Task-Decoupled Retrieval with Fine-Grained LLM Feedback for In-Context Learning</h3>
+            <p class="pub__authors">Yifu Chen, <span class="me">Bingchen Huang*</span>, Zhiling Wang, Yuanchao Du, Junfeng Luo, Lei Shen, Zhineng Chen</p>
+            <p class="pub__links">
+              <a href="https://arxiv.org/abs/2507.18340" target="_blank" rel="noopener">arXiv</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub__item">
+          <div class="pub__venue"><span class="badge">CVPR-W 2024</span></div>
+          <div class="pub__body">
+            <h3 class="pub__title">NTIRE 2024 Quality Assessment of AI-Generated Content Challenge</h3>
+            <p class="pub__authors">Xiaohong Liu, Xiongkuo Min, Guangtao Zhai, et al. (incl. <span class="me">Bingchen Huang*</span>)</p>
+            <p class="pub__sub">IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops</p>
+            <p class="pub__links">
+              <a href="https://arxiv.org/abs/2404.16687" target="_blank" rel="noopener">arXiv</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub__item">
+          <div class="pub__venue"><span class="badge badge--top">ICCV 2023</span></div>
+          <div class="pub__body">
+            <h3 class="pub__title">MRN: Multiplexed Routing Network for Incremental Multilingual Text Recognition</h3>
+            <p class="pub__authors">Tianlun Zheng, Zhineng Chen, <span class="me">Bingchen Huang*</span>, Wei Zhang, Yu-Gang Jiang</p>
+            <p class="pub__sub">IEEE/CVF International Conference on Computer Vision</p>
+            <p class="pub__links">
+              <a href="https://arxiv.org/abs/2305.14758" target="_blank" rel="noopener">arXiv</a>
+              <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_MRN_Multiplexed_Routing_Network_for_Incremental_Multilingual_Text_Recognition_ICCV_2023_paper.pdf" target="_blank" rel="noopener">PDF</a>
+              <a href="https://github.com/YellowPancake/MRN" target="_blank" rel="noopener">Code</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub__item">
+          <div class="pub__venue"><span class="badge badge--top">AAAI 2023</span></div>
+          <div class="pub__body">
+            <h3 class="pub__title">Resolving Task Confusion in Dynamic Expansion Architectures for Class Incremental Learning</h3>
+            <p class="pub__authors"><span class="me">Bingchen Huang*</span>, Zhineng Chen, Peng Zhou, Jiayin Chen, Zuxuan Wu</p>
+            <p class="pub__sub">Proceedings of the AAAI Conference on Artificial Intelligence</p>
+            <p class="pub__links">
+              <a href="https://arxiv.org/abs/2212.14284" target="_blank" rel="noopener">arXiv</a>
+              <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25170" target="_blank" rel="noopener">AAAI</a>
+              <a href="https://github.com/YellowPancake/TCIL" target="_blank" rel="noopener">Code</a>
+            </p>
+          </div>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Bingchen Huang · Built with plain HTML &amp; CSS on GitHub Pages.</p>
+    <p class="footer__sub">Design inspired by clean academic homepages. Last updated June 2026.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
