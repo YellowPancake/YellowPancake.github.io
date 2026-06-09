@@ -1,6 +1,6 @@
 # yellowpancake.github.io
 
-Personal academic homepage of **Bingchen Huang (黄炳琛)** — Algorithm Engineer at Meituan.
+Personal academic homepage of **Bingchen Huang (黄丙晨)** — Algorithm Engineer at Meituan.
 Multimodal Large Language Models & Continual Learning.
 
 🔗 Live: https://yellowpancake.github.io/
